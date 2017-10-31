@@ -1,0 +1,47 @@
+
+/*Container for audio player*/
+#audioplayer{
+	width: 580px;
+	height: 32px;
+	margin: auto;
+	border: solid;
+}
+/* Play/Pause Button */
+#pButton{
+	height:32px;
+	width: 32px;
+	border: none;
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	float:left;
+	outline:none;
+
+}
+/*Classes for play/pause button background*/
+.play{background: url('../img/play.png') ;}
+.pause{background: url('../img/pause.png') ;}
+
+#timeline{
+	width: 32px;
+	height: 16px;
+	background: rgba(0,0,0,.3);
+	margin-top: 8px;
+	float: left;
+	border-radius: 15px;
+}
+/*Grabable Playhead*/
+#playhead{
+	cursor: pointer;
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	background: black;
+}
+#playerlogo{
+	height: 32px;
+	width: 488px;
+	float: right;
+	background-image: url('../img/agriniowebradiologo.png');
+	background-size: 100% 100%;
+}
