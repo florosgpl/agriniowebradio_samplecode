@@ -1,7 +1,7 @@
 
 /*Container for audio player*/
 #audioplayer{
-	width: 580px;
+	width: 558px;
 	height: 32px;
 	margin: auto;
 	border: solid;
@@ -19,11 +19,11 @@
 
 }
 /*Classes for play/pause button background*/
-.play{background: url('../img/play.png') ;}
-.pause{background: url('../img/pause.png') ;}
+.play{background: url('https://cdn.rawgit.com/florosgpl/agriniowebradio_samplecode/master/img/play.png') ;}
+.pause{background: url('https://cdn.rawgit.com/florosgpl/agriniowebradio_samplecode/master/img/pause.png') ;}
 
 #timeline{
-	width: 32px;
+	width: 16px;
 	height: 16px;
 	background: rgba(0,0,0,.3);
 	margin-top: 8px;
