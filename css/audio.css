@@ -2,14 +2,14 @@
 /*Container for audio player*/
 #audioplayer{
 	width: 558px;
-	height: 32px;
+	height: 50px;
 	margin: auto;
 	border: solid;
 }
 /* Play/Pause Button */
 #pButton{
-	height:32px;
-	width: 32px;
+	height:50px;
+	width: 50px;
 	border: none;
 	background-size: 50% 50%;
 	background-repeat: no-repeat;
@@ -23,8 +23,8 @@
 .pause{background: url('https://cdn.rawgit.com/florosgpl/agriniowebradio_samplecode/master/img/pause.png') ;}
 
 #timeline{
-	width: 16px;
-	height: 16px;
+	width: 1px;
+	height: 1px;
 	background: rgba(0,0,0,.3);
 	margin-top: 8px;
 	float: left;
@@ -33,13 +33,13 @@
 /*Grabable Playhead*/
 #playhead{
 	cursor: pointer;
-	width: 16px;
-	height: 16px;
+	width: 1px;
+	height: 1px;
 	border-radius: 50%;
 	background: black;
 }
 #playerlogo{
-	height: 32px;
+	height: 50px;
 	width: 488px;
 	float: right;
 	background-image: url('http://www.agriniowebradio.gr/wp-content/uploads/2017/10/agriniowebradiologo.png');
